@@ -1,7 +1,12 @@
 # Docker build
-'''
+```
 git clone https://github.com/shlee7777/dockerTest
-cd dockerTest
-docker build --rm -t vacant4u/ut:2
+cd dockerTest/UbuntuDocker
+docker build --rm -t nowage/ut:v2 .
 docker images
-'''
+```
+
+# Docker run 
+```
+docker run -it --name ut -v ~/df:/df --rm nowage/ut:2
+```
