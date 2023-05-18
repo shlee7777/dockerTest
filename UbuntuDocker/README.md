@@ -1,6 +1,6 @@
 # Docker build
 ```
-git clone https://github.com/nowage/dockerTest
+git clone https://github.com/shlee7777/dockerTest
 cd dockerTest/UbuntuDocker
 docker build --rm -t nowage/ut:v2 .
 docker images
